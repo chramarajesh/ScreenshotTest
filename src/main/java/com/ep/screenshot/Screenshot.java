@@ -113,8 +113,8 @@ public class Screenshot {
 				Message message = new MimeMessage(session);
 				message.setFrom(new InternetAddress("chramarajesh@gmail.com"));
 				message.setRecipients(Message.RecipientType.TO,
-						InternetAddress.parse("rchittavarjula@ep.com"));
-				message.setSubject("Email Test Execution Status");
+						InternetAddress.parse("rchittavarjula@ep.com,nvishtamsetty@ep.com,gindraganti@ep.com"));
+				message.setSubject("EP Report Dashboard Execution Status!!!");
 
 				// This mail has 2 part, the BODY and the embedded image
 				MimeMultipart multipart = new MimeMultipart("related");
@@ -168,7 +168,7 @@ public class Screenshot {
 				message.setFrom(new InternetAddress("chramarajesh@gmail.com"));
 				message.setRecipients(Message.RecipientType.TO,
 						InternetAddress.parse("rchittavarjula@ep.com "));
-				message.setSubject("Email Test Execution Status!!!");
+				message.setSubject("EP Report Dashboard Execution Status!!!");
 
 				// This mail has 2 part, the BODY and the embedded image
 				MimeMultipart multipart = new MimeMultipart("related");
