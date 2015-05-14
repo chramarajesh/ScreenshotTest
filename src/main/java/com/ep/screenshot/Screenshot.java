@@ -167,7 +167,7 @@ public class Screenshot {
 				Message message = new MimeMessage(session);
 				message.setFrom(new InternetAddress("chramarajesh@gmail.com"));
 				message.setRecipients(Message.RecipientType.TO,
-						InternetAddress.parse("rchittavarjula@ep.com,nvishtamsetty@ep.com,gindraganti@ep.com"));
+						InternetAddress.parse("rchittavarjula@ep.com,nvishtamsetty@ep.com,gindraganti@ep.com,sthamilarasan@ep.com,vkothandapani@ep.com"));
 				message.setSubject("EP Report Dashboard Execution Status!!!");
 
 				// This mail has 2 part, the BODY and the embedded image
